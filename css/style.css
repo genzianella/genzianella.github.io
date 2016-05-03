@@ -83,6 +83,8 @@ Modules - reusable parts of our design
     }
 #current {
     color:#CCCC00;
+    cursor: auto;
+    
     /*color: #C2C38F;*/
 }
 .book-now{
@@ -1608,7 +1610,7 @@ Intro
 }
 .ziano::after {
   content: "";
-  background: transparent url(../img/esterno-genzianella-estate.jpg) no-repeat;
+  background: transparent url(../img/ziano.jpg) no-repeat;
   background-size: cover;
   background-position:50% 50%;
   top: 0;
@@ -2083,42 +2085,27 @@ color: #FFF;
 	top: -45px;
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../img/7.jpg); 
+    background-image: url(../img/esterno-genzianella-estate.jpg); 
     
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image: url(../img/4.jpg); 
+    background-image: url(../img/camera-genzianella.jpg); 
     animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image: url(../img/7.jpg); 
+    background-image: url(../img/sauna-genzianella.jpg); 
     animation-delay: 12s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image: url(../img/08.jpg); 
+    background-image: url(../img/food.jpg); 
     animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url(../img/25.jpg); 
+    background-image: url(../img/esterno-genzianella.jpg); 
     animation-delay: 24s; 
 }
 
 
-.cb-slideshow li:nth-child(2) div { 
-    animation-delay: 6s; 
-}
-.cb-slideshow li:nth-child(3) div { 
-    animation-delay: 12s; 
-}
-.cb-slideshow li:nth-child(4) div { 
-    animation-delay: 18s; 
-}
-.cb-slideshow li:nth-child(5) div { 
-    animation-delay: 24s; 
-}
-.cb-slideshow li:nth-child(6) div { 
-    animation-delay: 30s; 
-}
 
 /* Animation for the slideshow images */
 
@@ -2331,9 +2318,7 @@ color: #FFF;
 }
   }
 @media only screen and (min-width: 1170px) {
-.cb-slideshow li:nth-child(1) span { 
-    background-image: url(../img/principali/berghotel-esterna-stelle.jpg); 
-}
+
 
 .cb-slideshow li span { 
     width: 78%;
@@ -2658,7 +2643,7 @@ Placeholder Sections
 }
 #prezzi-back{
     
-	background-image:url('../img/reception.jpg');
+	background-image:url('../img/hall.jpg');
 }
 #hike-back2{
     margin-top:81px;
@@ -2798,7 +2783,7 @@ margin-top:81px;
 	background-image:url('../img/acqua.jpeg');
 }
 #ziano-back{
-	background-image:url('../img/esterno-genzianella-estate.jpg');
+	background-image:url('../img/ziano.jpg');
 }
 #fitness-back{
 	background-image:url('../img/fitness.jpg');
@@ -2810,6 +2795,10 @@ margin-top:81px;
 .link-img{
 	width:60%;
 	
+}
+.divs-inside p{
+	position:relative;
+	top:45%;
 }
 .main-content-item{
  position:relative;
@@ -2877,6 +2866,7 @@ margin-top:81px;
   
 }
 @media only screen and (min-width: 1170px) {
+
 .left{
 	float:left;
 }
