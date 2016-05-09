@@ -2317,8 +2317,25 @@ color: #FFF;
 }
   }
 @media only screen and (min-width: 1170px) {
-
-
+.qfbox{
+	width: 180px; 
+	border-width: 1px; 
+	border-color: #D7D7D7; 
+	border-style: solid; 
+	padding: 10px; 
+	z-index: 1201 !important;
+	
+}
+.qbox-intern{
+	padding: 8px;
+	text-align: center;
+	font-size: 1.3em;
+	background-color: #EEEEEE;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: #666666;
+	
+}
 .cb-slideshow li span { 
     width: 78%;
     }
