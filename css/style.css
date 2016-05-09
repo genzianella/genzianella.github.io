@@ -336,22 +336,7 @@ div.cd-main {
 	color:#76919F;
 	
 }
-.qfbox{
-	width: 180px; 
-	border-width: 1px;
-	border-color: #D7D7D7;
-	border-style: solid;
-	padding: 10px;
-} 
-.box-intern{
-	padding: 8px;
-	text-align: center;
-	font-size: 1.3em;
-	background-color: #EEEEEE;
-	font-weight: 700;
-	margin-bottom: 10px;
-	color: #666666;
-}
+
 @media 
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
