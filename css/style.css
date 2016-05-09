@@ -2337,15 +2337,12 @@ color: #FFF;
 	
 }
 .cb-slideshow li span { 
-    width: 78%;
+    width: 100%;
     }
 .cb-slideshow li div {
 	display:block;
 }
-.cb-slideshow li span {
-	left:22%;
-	
-}
+
 .lang-a{
 	position:relative;
 	width:50px;
@@ -2381,7 +2378,8 @@ opacity:0.7;
   #cd-intro {
     position:relative;
     top:0;
-    left:0;
+    left:22%;
+    width:78%;
     height: 100%;
   }
   
