@@ -50,7 +50,7 @@
   <div class="lang-switch"> <div><a title="Inglese" href="eng/hiking.html">EN</a></div> <div><a title="Italiano" class="not-active" id="current" href="#">IT</a></div> <div><a title="Tedesco" href="de/bergwandern.html">DE</a></div>
   </div> 
 <ul>
-    <a class="not-active" title="Hotel" href="hotel.html"><li>HOTEL</li></a>
+    <a title="Hotel" href="hotel.html"><li>HOTEL</li></a>
     <a title="Camere" href="camere.html"><li>CAMERE</li></a>
         <a title="Wellness" href="wellness.html"><li id="current">WELLNESS</li></a>
         <a title="Vacanza attiva" href="vacanza-attiva.html"><li>VACANZA ATTIVA</li></a>
@@ -69,34 +69,13 @@
 			
 <div class="book-now"><a><p>PRENOTA ONLINE</p><div class="arrow"></div></a>
 
-<form class="bookingForm"  action="https://booking.ericsoft.com/BookingEngine/book.aspx?" method="get">
-            <input type="hidden" name="idh" value="980204DF7D786B42" />
-           <div class="form1"><input type="text" placeholder="arrivo" id="depart-home" name="arrival">
-          <input type="text" placeholder="partenza" id="return-home" name="departure"></div>
-          <div class="adults-form-home"><label class="formLabel"></label><select name="adults" placeholder="adulti" class ="large-field-home" required>
-           <option value="0" default> adulti </option>
-           <option value="1"> 1 </option>
-           <option value="2" > 2 </option>
-           <option value="3"> 3 </option>
-           <option value="4"> 4 </option>
-           </select></div>
-          <div class="child1-home"> <label class="formLabel"></label><select name="child1" placeholder="bambini" class ="large-field-home">
-           <option value="0" default> bambini </option>
-           <option value="1"> 1 </option>
-           <option value="2"> 2 </option>
-           <option value="3"> 3 </option>
-           <option value="4"> 4 </option>
-           <option value="5"> 5 </option>
-           </select></div>
-           <input type="submit" class="home-button" value="CERCA"/></form>
-       <!--    <script type="text/javascript" src="http://web4.deskline.net/accommodationtrentino/it/qfind/script/TRN/685e206d-4fbd-41e2-8450-2bbcc0fdb286/x?pageType=4&containerId=QF1&selAdultsSearchLine1=2&selNights=7&width=180&showDestination=true&showAccType=false&showText=true&showLink=true&lkCS="></script>
-        <script type="text/javascript" src="http://cdn1.suggesto.eu/fwjs-portlet/js/swevt-prenotrack.js"></script>
-        <div class="qfbox" style="width: 180px; border-width: 1px; border-color: #D7D7D7; border-style: solid; padding: 10px;">
-          <div style="padding: 8px;text-align: center;font-size: 1.3em;background-color: #EEEEEE;font-weight: 700;margin-bottom: 10px;color: #666666;">BOOKING</div>
-          <form Id="QF1"></form>-->
+
+        <div class="qfbox">
+          <div class="box-intern">BOOKING</div>
+          <form Id="QF1"></form>
         </div> 
            
-           </div>
+     </div>
 </nav>
 	
 	<section id="cd-intro-fix" class="beauty">
@@ -128,6 +107,8 @@ Il centro Wellness comprende sauna finlandese, bagno turco, docce tropicali e zo
 	<footer class="footer-distributed">
 
 		</footer>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -137,9 +118,9 @@ Il centro Wellness comprende sauna finlandese, bagno turco, docce tropicali e zo
   ga('create', 'UA-46656149-5', 'auto');
   ga('send', 'pageview');
 
-</script>		
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+</script>
 
+           <script type="text/javascript" src="http://web4.deskline.net/accommodationtrentino/it/qfind/script/TRN/685e206d-4fbd-41e2-8450-2bbcc0fdb286/x?pageType=4&containerId=QF1&selAdultsSearchLine1=2&selNights=7&width=180&showDestination=true&showAccType=false&showText=true&showLink=true&lkCS="></script>
+        <script type="text/javascript" src="http://cdn1.suggesto.eu/fwjs-portlet/js/swevt-prenotrack.js"></script>
 </body>
 </html>

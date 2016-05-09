@@ -197,7 +197,7 @@ Modules - reusable parts of our design
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+   
     color: white;
      }
 .small-button-left{
@@ -214,7 +214,7 @@ Modules - reusable parts of our design
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+   
     color: white;
     z-index:4;
      }
@@ -231,7 +231,7 @@ Modules - reusable parts of our design
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    
     color: white;
     z-index:4;
     
@@ -250,7 +250,7 @@ Modules - reusable parts of our design
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    
     color: white;
     
     
@@ -335,6 +335,22 @@ div.cd-main {
 .link-color{
 	color:#76919F;
 	
+}
+.qfbox{
+	width: 180px; 
+	border-width: 1px;
+	border-color: #D7D7D7;
+	border-style: solid;
+	padding: 10px;
+} 
+.box-intern{
+	padding: 8px;
+	text-align: center;
+	font-size: 1.3em;
+	background-color: #EEEEEE;
+	font-weight: 700;
+	margin-bottom: 10px;
+	color: #666666;
 }
 @media 
 only screen and (max-width: 760px),
@@ -1766,7 +1782,7 @@ Intro
 }
 .gourmet::after {
   content: "";
-  background: transparent url(../img/gourmet.jpg) no-repeat;
+  background: transparent url(../img/food-genzianella.jpg) no-repeat;
   background-size: cover;
   background-position:50% 50%;
   top: 0;
@@ -2637,6 +2653,9 @@ Placeholder Sections
 #offerta-prenota-giugno{
     background-image:url('../img/walking.JPG');
 }
+#storia-back{
+    background-image:url('../img/3.jpg');
+}
 #guest-back{
     background-image:url('../img/fiemme-dolomiti-trentino-fondo.jpeg');
     background-position: 50% 100%;
@@ -2670,7 +2689,7 @@ Placeholder Sections
 	background-image:url('../img/famiglia.jpg');
 }
 #gourmet-back{
-	background-image:url('../img/gourmet.jpg');
+	background-image:url('../img/food-genzianella.jpg');
 }
 #alpine-back{
 	margin-top:81px;
@@ -2695,7 +2714,7 @@ Placeholder Sections
 	background-image:url('../img/certificato.jpg');
 }
 #filosofia-back{
-	background-image:url('../img/energia.jpg');
+	background-image:url('../img/entrata-genzianella.jpg');
 }
 #walk-back{
     
@@ -3156,21 +3175,12 @@ width: 32.3%;
      margin-top:0;
      width: 50%;
 }
-#gourmet-back{
-     margin-left:-2px;
-	 width: 49.5%;
-	 
-}
+
 #think-back{
      margin-top:2px;
 	 width: 32.3%;
 	 margin-left:-2px;
 	 background-position: 50% 60%;
-}
-#filosofia-back{
-	 width: 33%;
-	 margin-left:-2px;
-	 margin-top:2px;
 }
 
 
