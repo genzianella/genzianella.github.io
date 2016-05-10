@@ -496,7 +496,7 @@ Navigation
 
 -------------------------------- */
 .lang-switch{
- 
+ display:none;
  position: absolute;
 left: 20px;
 z-index: 1005 !important;
@@ -1196,6 +1196,7 @@ opacity: 0.7;
 	padding-left: 5px;
 	width: 50px;
 	height: 150px;
+	display:none;
 
 }
 .lang-switch a{
@@ -2084,7 +2085,7 @@ color: #FFF;
 	top: -45px;
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../img/esterno-genzianella-estate.jpg); 
+    background-image: url(../img/esterno-genzianella-inverno.jpg); 
     
 }
 .cb-slideshow li:nth-child(2) span { 
