@@ -1998,9 +1998,9 @@ padding: 10px;
 
 .content h2{
 	text-align: center;
-font-size: 45px;
-
+font-size: 2em;
 margin-bottom: 12px;
+
 }
 .content{
     position: relative;
@@ -2009,7 +2009,7 @@ margin-bottom: 12px;
 	left: 3%;
 	font-size: 28px;
 	padding-top: 10px;
-color: #FFF;
+	color: #FFF;
 }
 #cd-intro-fix::after {
     content: "";
@@ -2085,7 +2085,7 @@ color: #FFF;
 	top: -45px;
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../img/esterno-genzianella-inverno.jpg); 
+    background-image: url(../img/esterno-gnezianella2.jpg); 
     
 }
 .cb-slideshow li:nth-child(2) span { 
@@ -2325,7 +2325,7 @@ color: #FFF;
     color: #fff;
 }
 	
-}
+
 
 .cb-slideshow li span { 
     width: 100%;
@@ -2816,14 +2816,14 @@ margin-top:81px;
 }
 .text-section{
 	width:100%;
-	height:120px;
+	height:100px;
 	color:black;
 	text-align:center;
 	box-shadow:inset 0 0 8px #000000;
 }
 .text-item{
 	position: relative;
-	top: 20px;
+	top: 45px;
 }
 @media only screen and (min-width: 768px) {
   .link-img{
